@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{545909E0-40FB-8C7E-50A8-D9B6EDE29C48}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_0;UNITY_4_0;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Enemies\EnemyBombCollisionHandler.cs" />
+     <Compile Include="Assets\Scripts\Enemies\EnemyBombController.cs" />
+     <Compile Include="Assets\Scripts\Enemies\EnemyBulletController.cs" />
+     <Compile Include="Assets\Scripts\Enemies\EnemyHomingMissileController.cs" />
+     <Compile Include="Assets\Scripts\Enemies\EnemyMissileCollisionController.cs" />
+     <Compile Include="Assets\Scripts\Enemies\EnemyMissileController.cs" />
+     <Compile Include="Assets\Scripts\Enemies\EnemyPlaneCollisionController.cs" />
+     <Compile Include="Assets\Scripts\Enemies\EnemyPlaneController.cs" />
+     <Compile Include="Assets\Scripts\Enemies\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\Enemies\EnemySwarmMissileController.cs" />
+     <Compile Include="Assets\Scripts\Enemies\EnemyVariables.cs" />
+     <Compile Include="Assets\Scripts\GameInformation.cs" />
+     <Compile Include="Assets\Scripts\GameOver\GameOverController.cs" />
+     <Compile Include="Assets\Scripts\Levels\LevelInformation.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\MenuController.cs" />
+     <Compile Include="Assets\Scripts\Managers\GameInfoManager.cs" />
+     <Compile Include="Assets\Scripts\Particles\LaserController.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Powerups\HealthBoxCollisionHandler.cs" />
+     <Compile Include="Assets\Scripts\Powerups\HealthBoxController.cs" />
+     <Compile Include="Assets\Scripts\Powerups\MinigunBoxCollisionHandler.cs" />
+     <Compile Include="Assets\Scripts\Powerups\MinigunBoxController.cs" />
+     <Compile Include="Assets\Scripts\Powerups\PowerUpCollisionController.cs" />
+     <Compile Include="Assets\Scripts\Powerups\PowerUpController.cs" />
+     <Compile Include="Assets\Scripts\Powerups\PowerUpSpawnController.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\BulletController.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\CollisionHandler.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\GunBulletCollisionHandler.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\GunBulletController.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\MissileCollisionHandler.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\MissileController.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\Old\SmallMissileControllerOld.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\Old\SwarmMissileControllerOld.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\SmallMissileController.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\SwarmMissileController.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\TorqueLookAt.cs" />
+     <Compile Include="Assets\Scripts\Scoreboard\HighScoreController.cs" />
+     <Compile Include="Assets\Scripts\Structures\StructureCollisionController.cs" />
+     <Compile Include="Assets\Scripts\Structures\StructureController.cs" />
+     <Compile Include="Assets\Scripts\Testing\TestSceneController.cs" />
+     <Compile Include="Assets\Scripts\Turrets\MinigunCollisionHandler.cs" />
+     <Compile Include="Assets\Scripts\Turrets\MinigunController.cs" />
+     <Compile Include="Assets\Scripts\Turrets\TurretBarrelController.cs" />
+     <Compile Include="Assets\Scripts\Turrets\TurretCollisionController.cs" />
+     <Compile Include="Assets\Scripts\Turrets\TurretController.cs" />
+     <Compile Include="Assets\Scripts\Turrets\TurretState.cs" />
+     <Compile Include="Assets\Scripts\Turrets\TurretTargetController.cs" />
+     <Compile Include="Assets\Scripts\UI\CustomCursor.cs" />
+     <Compile Include="Assets\Scripts\UI\HUDController.cs" />
+     <Compile Include="Assets\Scripts\UI\HealthBarScript.cs" />
+     <Compile Include="Assets\Scripts\UI\TextInputController.cs" />
+     <Compile Include="Assets\Scripts\UI\TurretHealthBarController.cs" />
+     <Compile Include="Assets\Scripts\Utils\DiceHelper.cs" />
+     <Compile Include="Assets\Scripts\Utils\GameObjectUtilts.cs" />
+     <Compile Include="Assets\Scripts\Utils\MathUtils.cs" />
+     <Compile Include="Assets\Scripts\Utils\RandomHelper.cs" />
+     <Compile Include="Assets\Scripts\VariableScript.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCamera.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Camera\tk2dCameraAnchor.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dFont.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dFontData.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Fonts\tk2dTextMesh.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Gui\tk2dButton.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Runtime\tk2dResource.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Runtime\tk2dSystem.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dAnimatedSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dBaseSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dPixelPerfectHelper.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dRuntimeSpriteCollection.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSlicedSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSprite.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteAnimation.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollection.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionData.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionInterfaces.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\Sprites\tk2dStaticSpriteBatcher.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\TileMap\tk2dTileMap.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\TileMap\tk2dTileMapBuilderUtil.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\TileMap\tk2dTileMapChunks.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\TileMap\tk2dTileMapColliderBuilder.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\TileMap\tk2dTileMapData.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\TileMap\tk2dTileMapMeshBuilder.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d\Code\tk2dClippedSpriteSample.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoAnimController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoButtonController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoCameraController.cs" />
+     <Compile Include="Assets\TK2DROOT\tk2d_demo\tk2dDemoReloadController.cs" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\SolidVertexColor.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitPremulVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\PremulVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\Credits.txt" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\goodies\PackedTextMesh.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\Blend2TexVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\BlendVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitCutoutVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Editor\EditorUtility.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\CutoutVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\AdditiveVertexColor.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

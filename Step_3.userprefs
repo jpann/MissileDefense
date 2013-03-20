@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Levels\LevelInformation.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Levels\LevelInformation.cs" Line="33" Column="31" />
+      <File FileName="Assets\Scripts\Turrets\MinigunController.cs" Line="165" Column="3" />
+      <File FileName="Assets\Scripts\Turrets\MinigunCollisionHandler.cs" Line="23" Column="145" />
+      <File FileName="Assets\Scripts\Powerups\MinigunBoxController.cs" Line="75" Column="25" />
+      <File FileName="Assets\Scripts\Managers\GameInfoManager.cs" Line="100" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemies\EnemySpawner.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Enemies\EnemySpawner.cs" Line="15" Column="37" />
+      <File FileName="Assets\Scripts\TurretController.cs" Line="14" Column="3" />
+      <File FileName="Assets\Scripts\TurretBarrelController.cs" Line="45" Column="71" />
+      <File FileName="Assets\Scripts\TurretCollisionController.cs" Line="30" Column="5" />
+      <File FileName="Assets\Scripts\Enemies\EnemyMissileCollisionController.cs" Line="21" Column="5" />
+      <File FileName="Assets\Scripts\Enemies\EnemyMissileController.cs" Line="101" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
