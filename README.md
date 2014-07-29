@@ -1,1 +1,0 @@
-[Demo](https://github.com/jpann/MissileDefense/blob/master/MissileDefense.html)
